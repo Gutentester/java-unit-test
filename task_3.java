@@ -12,7 +12,7 @@ public class CheckIsAdultTest {
   @Parameterized.Parameters // Пометь метод аннотацией для параметров
   public static Object[][] getTextData() {
 	return new Object[][] {
-		{17, false}, // Заполни массив тестовыми данными и ожидаемым результатом
+	{17, false}, // Заполни массив тестовыми данными и ожидаемым результатом
         
         {18, true},
         
